@@ -76,6 +76,14 @@ nav a:hover span {
     color: rgba(255,255,255, 0.5);
     font-weight: bold;
 }
+.nazwydsc{
+    position: relative;
+    top: -30%;
+    left: 45%;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    margin-right: 25%;
+}
 .audiolol{
     position: relative;
     top: -20%;
@@ -93,20 +101,20 @@ nav a:hover span {
 .centered-gif {
     max-width: 100%; /* Maksymalna szerokość obrazka w ramach rodzica */
     margin: 10px; /* Dodanie marginesu między gifami (zmień wartość według potrzeb) */
-    position: absolute;
+    position: relative;
     transition: transform 0.3s ease-in-out; /* Dodanie płynnego przejścia dla ef*/
 }
 .gif {
-    top: 50%; /* Ustawienie odległości od góry o 50 pikseli */
-    left: 180%; /* Ustawienie odległości od lewej strony o 100 pikseli */
-    transform: scale(1.5);
+    top: 21%; /* Ustawienie odległości od góry o 50 pikseli */
+    left: 62%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+    transform: scale(1.7);
 }
 .gif1 {
-    top: 40%; /* Ustawienie odległości od góry o 50 pikseli */
-    left: 358%; /* Ustawienie odległości od lewej strony o 100 pikseli */
-    transform: scale(1.2);
+    top: 29%; /* Ustawienie odległości od góry o 50 pikseli */
+    left: 70%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+    transform: scale(1.33);
 }
 .gif2 {
     top: 42%; /* Ustawienie odległości od góry o 50 pikseli */
-    left: 250%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+    left: 71.5%; /* Ustawienie odległości od lewej strony o 100 pikseli */
 }
