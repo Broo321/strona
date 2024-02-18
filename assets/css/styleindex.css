@@ -86,12 +86,7 @@ nav a:hover span {
 }
 .audiolol{
     position: relative;
-    top: -20%;
-    right: 100%;
-}
-.button1 {
-    position: relative;
-    top: -50%;
+    top: 0%;
     right: 100%;
 }
 .gify {
