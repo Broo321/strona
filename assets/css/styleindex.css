@@ -1,0 +1,111 @@
+:root {
+    --color-bg-dark: #b700ff;
+    --color-bg-light: #03c99e;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(
+        to top right,
+        var(--color-bg-dark),
+        var(--color-bg-light)
+    );
+}
+nav {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+nav a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+}
+nav a:hover {
+    color: #0ef;
+}
+nav a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: .5s;
+}
+nav a:hover span {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+.bcfgimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.profile-image {
+    text-align: center;
+    position: fixed;
+    width: 40px; /* Dostosuj rozmiar obrazu zgodnie z potrzebami */
+    height: 40px; /* Dostosuj rozmiar obrazu zgodnie z potrzebami */
+    border-radius: 50%; /* Zaokrąglony kształt obrazu */
+}
+.textbcfg {
+    position: fixed;
+    top: 1%;
+    left: 50px;
+    font-size: 20px;
+    padding: 15px;
+    color: rgba(255,255,255, 0.5);
+    font-weight: bold;
+}
+.audiolol {
+    position: relative;
+    top: -55%;
+    right: 100%;
+    font-size: 0px;
+    padding: 0px;
+    color: rgba(255,255,255, 0.5);
+    font-weight: bold;
+}
+.gify {
+    position: relative;
+    height: 50vh; /* Ustawienie wysokości równa 100% wysokości widoku */
+}
+.centered-gif {
+    max-width: 100%; /* Maksymalna szerokość obrazka w ramach rodzica */
+    margin: 10px; /* Dodanie marginesu między gifami (zmień wartość według potrzeb) */
+    position: absolute;
+    transition: transform 0.3s ease-in-out; /* Dodanie płynnego przejścia dla ef*/
+}
+.gif {
+    top: 50%; /* Ustawienie odległości od góry o 50 pikseli */
+    left: 180%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+    transform: scale(1.5);
+}
+.gif1 {
+    top: 40%; /* Ustawienie odległości od góry o 50 pikseli */
+    left: 358%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+    transform: scale(1.2);
+}
+.gif2 {
+    top: 42%; /* Ustawienie odległości od góry o 50 pikseli */
+    left: 250%; /* Ustawienie odległości od lewej strony o 100 pikseli */
+}
